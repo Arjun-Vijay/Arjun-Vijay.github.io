@@ -78,15 +78,35 @@
 						<!-- About -->
 							<article id="Projects">
 								<h2 class="major">My Work</h2>
-								<pre><code>for index, row in app_data.iterrows():
- similarity_indices = similarity_scores[index].argsort()[:-100:-1]
- similiar_items = [(similarity_scores[index][i], app_data['track_name'][i]) for i in similarity_indices]
- results[row['id']] = similiar_items[1:]</code></pre>
-								<b><h3>App Recommendation System</h3></b>
-								<h4>Python | Scikit-Learn Framework</h4>
+								<pre><code>runOnUiThread{
+ val alert = AlertDialog.Builder(this)
+ alert.setTitle("You should take the " + " line ")
+ alert.setMessage(R.string.AlertDirection)
+ alert.setPositiveButton(R.string.AlertOK, { dialog, which ->
+   dialog.dismiss()
+ })
+
+ recyclerView.adapter = LocationAdapter(locations)
+}</code></pre>
+								<b><h3>DC Metro Navigator</h3></b>
+								<h4>Kotlin | Android Studio | WMATA API</h4>
 								<ul>
-									<li>Recommendation engine which provides app recommendations based on user-inputted preferences</li>
-									<li>Utilizes the Scikit-learn framework and Pandas library to calculate, analyze, and organize query results</li>
+									<li>Android app which provides metro directions to a metro station in D.C/Maryland area </li>
+									<li>Collects real-time updates of any metro alerts that the user may encounter during their ride</li>
+								</ul>
+								<hr />
+								<pre><code>$query = "select * from rec_letters where uid='$uid'";
+  $result = mysqli_query($conn,$query);
+  if (mysqli_num_rows($result) > 0){
+          while($row = mysqli_fetch_assoc($result)){
+          $recComplete = $row['complete'];
+          }
+  }</code></pre>
+								<h3>Application Processing System</h3>
+								<h4>PHP | MySQL | HTML | CSS</h4>
+								<ul>
+									<li>Created an application processing system for Masters/PhD students. This system enables students to apply to graduate programs and adminstration to review, admit, and analyze data of Masters/PhD applicants. </li>
+									<li>Implemented database design of system, backend information processing for all applicants/faculty reviewers, and user interface for website pages.</p></li>
 								</ul>
 								<hr />
 								<pre><code>private void move(City City) {
@@ -102,27 +122,12 @@
 									<li>Features intelligent zombies/warriors capable of tracking the position of various characters</li>
 									<li>UI includes randomized game maps as well extended functionality through keyboard shortcuts </li>
 								</ul>
-								<hr />
-								<pre><code>$query = "select * from rec_letters where uid='$uid'";
-  $result = mysqli_query($conn,$query);
-  if (mysqli_num_rows($result) > 0){
-          while($row = mysqli_fetch_assoc($result)){
-          $recComplete = $row['complete'];
-          }
-  }</code></pre>
-								<h3><a href="http://gwupyterhub.seas.gwu.edu/~sp19DBp1-TheRockhoppers/TheRockhoppers/public_html/signup.php">Application Processing System</a></h3>
-								<h4>PHP | MySQL | HTML | CSS</h4>
-								<ul>
-									<li>Created an application processing system for Masters/PhD students. This system enables students to apply to graduate programs and adminstration to review, admit, and analyze data of Masters/PhD applicants. </li>
-									<li>Implemented database design of system, backend information processing for all applicants/faculty reviewers, and user interface for website pages.</p></li>
-								</ul>
-								<hr />
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="sendEmail.php">
+								<form method="post" action="">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
