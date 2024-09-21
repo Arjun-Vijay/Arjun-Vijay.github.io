@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Arjun Vijay",
+    "location": "Atlanta, GA",
+    "label": "Software Engineer",
+    "email": "arjunvkr@gmail.com"
+  },
+  "education": [
+    {
+      "institution": "George Washington University",
+      "location": "Washington, D.C",
+      "url": "https://cs.engineering.gwu.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017-08-01",
+      "endDate": "2021-06-01"
+    }
+  ],
+  "work": [
+    {
+      "name": "SAIC Innovation Factory",
+      "position": "Software Engineer",
+      "url": "https://www.saic.com/innovation-factory/experts",
+      "startDate": "2022-03-01",
+      "endDate": "Present",
+      "summary": "Infrastructure and Automation (JavaScript/Bash, Docker, Terraform, AWS/Azure)"
+    },
+    {
+      "name": "SAIC Innovation Factory",
+      "position": "Associate Software Engineer",
+      "url": "https://www.saic.com/innovation-factory/experts",
+      "startDate": "2021-07-19",
+      "endDate": "2022-03-01",
+      "summary": "Full Stack (JavaScript, React, Apollo GraphQL, PostgreSQL, AWS) "
+    },
+    {
+      "name": "Graham Technologies",
+      "position": "Software Developer Intern",
+      "url": "https://www.graham-tech.net/",
+      "startDate": "2019-06-01",
+      "endDate": "2020-08-01",
+      "summary": "Frontend (TypeScript, Angular, AWS)"
+    },
+    {
+      "name": "Mathnasium",
+      "position": "Math Instructor",
+      "url": "https://www.mathnasium.com/",
+      "startDate": "2016-08-01",
+      "endDate": "2017-8-01",
+      "summary": "K-12 and AP Calculus"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Clark Scholarship",
+      "date": "2018-04-01",
+      "awarder": "George Washington University",
+      "url": "https://engineering.gwu.edu/clark-engineering-scholars"
+    },
+    {
+      "title": "Presidential Scholarship",
+      "date": "2017-04-01",
+      "awarder": "George Washington University"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "JavaScript",
+        "SQL",
+        "Bash",
+        "YAML"
+      ]
+    },
+    {
+      "name": "Framework/Libraries",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "React",
+        "Serverless",
+        "Terraform",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Platforms",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "AWS",
+        "Apollo GraphQL",
+        "Docker",
+        "Gitlab"
+      ]
+    },
+    {
+      "name": "Etc.",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Git",
+        "Jira",
+        "Confluence"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Academic",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Computing Education",
+        "Human-Computer Interaction",
+        "Neuroscience"
+      ]
+    },
+    {
+      "name": "Recreational",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Tennis",
+        "Chess",
+        "Woodworking"
+      ]
+    }
+  ]
+}
