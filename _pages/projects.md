@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Short writings, presentations, and other fun activities 
+description: Short writings, presentations, and other activites
 nav: true
 nav_order: 4
 display_categories: [Fun, Undergraduate, Archives]
