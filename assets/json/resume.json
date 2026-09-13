@@ -1,19 +1,28 @@
 {
   "basics": {
     "name": "Arjun Vijay",
-    "location": "Atlanta, GA",
+    "location": "Fairfax, VA",
     "label": "Software Engineer",
-    "email": "avijay3@jhu.edu"
+    "email": "arjunvkr@gmail.com"
   },
   "work": [
+    {
+      "name": "SAIC",
+      "position": "Senior Software Engineer",
+      "url": "https://ascendingdc.com/",
+      "startDate": "2025-11-01",
+      "endDate": "Present",
+      "location": "Fairfax, VA",
+      "summary": "Enterprise AI (TypeScript,Python, MongoDB, Strands SDK, Weaviate, Kubernetes, AWS)"
+    },
     {
       "name": "SAIC",
       "position": "Senior Software Engineer",
       "url": "https://www.saic.com/innovation-factory/experts",
       "startDate": "2025-03-01",
       "endDate": "Present",
-      "location": "Atlanta, GA",
-      "summary": "Enterprise AI (Python, Docker, Terraform, Kubernetes, Helm, AWS)"
+      "location": "Reston, VA",
+      "summary": "Infrastructure Automation (JavaScript, GraphQL, Terraform, AWS)"
     },
     {
       "name": "SAIC",
@@ -21,7 +30,7 @@
       "url": "https://www.saic.com/innovation-factory/experts",
       "startDate": "2022-03-01",
       "endDate": "2025-03-01",
-      "location": "Atlanta, GA",
+      "location": "Reston, VA",
       "summary": "Full-Stack Solutions Delivery (JavaScript, React, GraphQL, PostgreSQL, AWS)"
     },
     {
@@ -30,7 +39,7 @@
       "url": "https://www.saic.com/innovation-factory/experts",
       "startDate": "2021-07-19",
       "endDate": "2022-03-01",
-      "location": "Atlanta, GA",
+      "location": "Reston, VA",
       "summary": "Full-Stack Solutions Delivery (JavaScript, React, GraphQL, PostgreSQL, AWS)"
     },
     {
@@ -53,15 +62,6 @@
     }
   ],
   "education": [
-    {
-      "institution": "Johns Hopkins University",
-      "location": "Remote",
-      "url": "https://ep.jhu.edu/programs/computer-science/",
-      "area": "Computer Science",
-      "studyType": "Master of Science",
-      "startDate": "2025-02-01",
-      "endDate": "Present"
-    },
     {
       "institution": "George Washington University",
       "location": "Washington, D.C",
@@ -89,62 +89,34 @@
     {
       "name": "Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "JavaScript",
-        "Go",
-        "SQL"
-      ]
+      "keywords": ["Python", "JavaScript", "Go", "SQL"]
     },
     {
       "name": "Framework/Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "React",
-        "Serverless",
-        "Terraform",
-        "TensorFlow"
-      ]
+      "keywords": ["React", "Serverless", "Terraform", "TensorFlow"]
     },
     {
       "name": "Platforms",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "AWS",
-        "HuggingFace",
-        "Apollo GraphQL",
-        "Docker",
-        "Hugging Face"
-      ]
+      "keywords": ["AWS", "HuggingFace", "Apollo GraphQL", "Docker", "Hugging Face"]
     },
     {
       "name": "Etc.",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "Jira",
-        "Confluence"
-      ]
+      "keywords": ["Git", "Jira", "Confluence"]
     }
   ],
   "interests": [
     {
       "name": "Academic",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Computing Education",
-        "Human-Computer Interaction",
-        "Neuroscience"
-      ]
+      "keywords": ["Computing Education", "Human-Computer Interaction", "Neuroscience"]
     },
     {
       "name": "Recreational",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Tennis",
-        "Chess",
-        "Woodworking"
-      ]
+      "keywords": ["Tennis", "Chess", "Woodworking"]
     }
   ]
 }
